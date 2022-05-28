@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1653759789 source:e:\hagr\iticourse\c++ oop\projecttest\testcpp\main.c
+	<stdio.h>
+	<stdlib.h>
+
