@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1653826407 source:c:\cpp_projects\iti_cpp\employee\main.cpp
+	<iostream>
+	"employee.h"
+
+1653826142 source:c:\cpp_projects\iti_cpp\employee\employee.cpp
+	<iostream>
+	"employee.h"
+
+1653826433 c:\cpp_projects\iti_cpp\employee\employee.h
+	<iostream>
+
