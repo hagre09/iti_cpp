@@ -10,3 +10,10 @@
 1653826433 c:\cpp_projects\iti_cpp\employee\employee.h
 	<iostream>
 
+1653908254 source:c:\cpp_project\iti_cpp\employee\main.cpp
+	<iostream>
+	"employee.h"
+
+1653908254 c:\cpp_project\iti_cpp\employee\employee.h
+	<iostream>
+
