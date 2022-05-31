@@ -1,8 +1,12 @@
 # depslib dependency file v1.0
-1653914092 source:c:\cpp_project\iti_cpp\student\main.cpp
+1653997177 source:c:\cpp_project\iti_cpp\student\main.cpp
 	<iostream>
 	"student.h"
 
-1653915118 c:\cpp_project\iti_cpp\student\student.h
+1653997241 c:\cpp_project\iti_cpp\student\student.h
 	<iostream>
+	<windows.h>
+
+1653989104 source:c:\cpp_project\iti_cpp\student\student.cpp
+	"student.h"
 

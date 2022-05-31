@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 
 using namespace std;
 
@@ -24,5 +25,14 @@ public:
     int getAge();
     void setNumOfSubjs(int _numOfSubjs);
     int getNumOfSubjs();
-    void showStudent();
+    inline void showStudent()
+    {
+        cout << "ID: " << idNumber << " , Name: " << name << " , Age: " << age << " , Number Of Subjects: " << numOfSubjs << endl;
+    }
+    inline void showStudent(WORD Color)
+    {
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), Color);
+        cout << "ID: " << idNumber << " , Name: " << name << " , Age: " << age << " , Number Of Subjects: " << numOfSubjs << endl;
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY);
+    }
 };

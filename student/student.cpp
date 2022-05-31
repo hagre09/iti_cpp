@@ -52,3 +52,5 @@ int student:: getNumOfSubjs()
 {
     return numOfSubjs;
 }
+
+
